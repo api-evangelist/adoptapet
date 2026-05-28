@@ -1,0 +1,32 @@
+aid: adoptapet
+name: AdoptAPet
+description: "Resource to help get pets adopted"
+url: https://www.adoptapet.com/public/apis/pet_list.html
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Animals"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Animals
+  - Public APIs
+apis:
+  - name: AdoptAPet
+    description: "Resource to help get pets adopted"
+    humanURL: https://www.adoptapet.com/public/apis/pet_list.html
+    baseURL: https://www.adoptapet.com/public/apis/pet_list.html
+    tags:
+      - Animals
+    properties:
+      - type: Documentation
+        url: https://www.adoptapet.com/public/apis/pet_list.html
+common:
+  - type: Website
+    url: https://www.adoptapet.com/public/apis/pet_list.html
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
