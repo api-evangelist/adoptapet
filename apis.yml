@@ -39,7 +39,6 @@ apis:
   - name: AdoptAPet
     description: "Resource to help get pets adopted"
     humanURL: https://www.adoptapet.com/public/apis/pet_list.html
-    baseURL: https://www.adoptapet.com/public/apis/pet_list.html
     tags:
       - Animals
     properties:
